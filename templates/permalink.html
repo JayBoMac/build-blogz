@@ -1,0 +1,14 @@
+{% extends "blind.html" %}
+
+{% block content %}
+<div class="post">
+    <div class="post-title">
+        {{subject}}
+    </div>
+    <div class="post-date">
+        {{date}}
+    </div>
+    <hr>
+    <pre name="content">{{content}}</pre>
+</div>
+{% endblock %}
